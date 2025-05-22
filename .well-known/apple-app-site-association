@@ -1,0 +1,19 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "B7ST6NMT7V.au.com.sandstone.db", "K3LK6BD795.au.com.sandstone.db", "B7ST6NMT7V.au.com.sandstone.db.abank" ],
+             "components": [
+               {
+                  "/": "/ios",
+                  "comment": "Matches URL with path /ios"
+               },
+               {
+                  "/": "/ios/*",
+                  "comment": "Matches URL with path /ios/*"
+               }
+             ]
+           }
+       ]
+   }
+}
