@@ -16,5 +16,14 @@
       "sha256_cert_fingerprints":
       ["68:5E:14:DF:FF:22:ED:0A:BD:B5:F2:72:EB:6D:1B:BB:52:DC:E3:0B:34:43:4B:B8:8B:1C:9A:59:98:1F:E7:5D"]
     }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "au.com.sandstone.db.abank-dev",
+      "sha256_cert_fingerprints":
+      ["68:5E:14:DF:FF:22:ED:0A:BD:B5:F2:72:EB:6D:1B:BB:52:DC:E3:0B:34:43:4B:B8:8B:1C:9A:59:98:1F:E7:5D"]
+    }
   }
 ]
