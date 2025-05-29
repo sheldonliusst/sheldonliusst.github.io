@@ -5,6 +5,10 @@
              "appIDs": [ "B7ST6NMT7V.au.com.sandstone.db", "B7ST6NMT7V.au.com.sandstone.db.abank", "B7ST6NMT7V.au.com.sandstone.db.abank-dev" ],
              "components": [
                {
+                  "/": "/iosApp",
+                  "comment": "Matches URL with path /ios"
+               },
+               {
                   "/": "/ios",
                   "comment": "Matches URL with path /ios"
                }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Open Mobile App</title>
+  <script>
+    function openApp() {
+      const appScheme = "messages://";
+      const appStoreURL = "https://apps.apple.com/au/app/boq-specialist-mobile-banking/id946796643"; // Replace with your App Store URL
+
+      const now = new Date().getTime();
+      setTimeout(function () {
+        const later = new Date().getTime();
+        if (later - now > 1500) {
+          // App did not open
+          window.location.href = appStoreURL;
+        }
+      }, 1000);
+
+      // Attempt to open the app
+      window.location.href = appScheme;
+    }
+
+    window.onload = openApp;
+  </script>
+</head>
+<body>
+  <p>Trying to open the app...</p>
+</body>
+</html>
