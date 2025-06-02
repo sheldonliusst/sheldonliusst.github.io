@@ -7,10 +7,6 @@
                {
                   "/": "/iosApp",
                   "comment": "Matches URL with path /iosApp"
-               },
-               {
-                  "/": "/ios",
-                  "comment": "Matches URL with path /ios"
                }
              ]
            }
