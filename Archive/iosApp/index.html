@@ -6,7 +6,7 @@
   <title>Open Mobile App</title>
   <script>
     function openApp() {
-      // const appScheme = "messages://";
+      const appScheme = "messages://";
       const appStoreURL = "https://apps.apple.com/au/app/boq-specialist-mobile-banking/id946796643"; // Replace with your App Store URL
 
       const now = new Date().getTime();
@@ -19,7 +19,7 @@
       }, 1000);
 
       // Attempt to open the app
-      // window.location.href = appScheme;
+      window.location.href = appScheme;
     }
 
     window.onload = openApp;
